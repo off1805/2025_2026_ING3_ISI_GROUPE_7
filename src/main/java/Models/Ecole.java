@@ -1,6 +1,8 @@
 package Models;
 
 public class Ecole {
-    String nom;
-    int adminId;
+    protected String nom;
+    protected int adminId;
+    protected boolean etatCompte;
+
 }
