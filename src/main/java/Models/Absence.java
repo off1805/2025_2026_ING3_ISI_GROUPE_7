@@ -8,6 +8,8 @@ import java.util.Date;
 public class Absence {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private Date dateDebut;
     private Date dateFin;
     private int etudiantId;
